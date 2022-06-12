@@ -1,0 +1,3 @@
+D:/Курсовая 2022 ООП/Limacos_cursova/cmake-build-debug/CMakeFiles/Limacos_cursova.dir
+D:/Курсовая 2022 ООП/Limacos_cursova/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Курсовая 2022 ООП/Limacos_cursova/cmake-build-debug/CMakeFiles/rebuild_cache.dir
