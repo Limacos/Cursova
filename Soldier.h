@@ -55,38 +55,42 @@ public:
     string getMilitaryRank() const
     {
         string enumMilitaryRank[] = {
-                                  "Rookie",   //новобранец
-                                  "Foreman",  //старшина
-                                  "Corporal", //капрал
-                                  "Sergeant", //сержант
-                                  "General"   //генерал
-                                };
+                                    "Rookie",   //новобранец
+                                    "Foreman",  //старшина
+                                    "Corporal", //капрал
+                                    "Sergeant", //сержант
+                                    "General"   //генерал
+                                    };
         return enumMilitaryRank[militaryRank];
     }
     string getWeaponry() const
     {
-        string enumArsenal[] =
-                               {
-                                       "automatic",
-                                       "pistol",
-                                       "knife",
-                                       "shotgun"
+        string enumArsenal[] = {
+                                "automatic", //автомат
+                                "pistol",    //пистолет
+                                "knife",     //нож
+                                "shotgun"    //дробовик
                                };
         return enumArsenal[weaponry];
 
     }
     string getTypeOfMilitaryService() const
     {
-        string enumTypeOfMilitaryService[] =
-                {
-                        "enlisted",
-                        "reserve",
-                        "contract"
-                };
+        string enumTypeOfMilitaryService[] = {
+                                              "enlisted",
+                                              "reserve",
+                                              "contract"
+                                             };
         return enumTypeOfMilitaryService[typeOfMilitary];
     }
-    int    getLifeTime() const     {return lifeTime;}
-    int    getFights() const       {return  fights;}
+    int    getLifeTime() const
+    {
+        return lifeTime;
+    }
+    int    getFights() const
+    {
+        return  fights;
+    }
     void   battle();
     void   stock();
 

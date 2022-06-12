@@ -26,26 +26,26 @@ void Soldier::battle()
         return;
     }
     fights++;
-    if(0<=fights && fights<=2)
+    if(0 <= fights && fights <= 5)
     {
         militaryRank = Rookie;
     }
-    else if(3<=fights && fights<=7)
+    else if(6 <= fights && fights <= 15)
     {
         militaryRank = Foreman;
     }
 
-    else if(8<=fights && fights<=15)
+    else if(16 <= fights && fights <= 30)
     {
         militaryRank = Corporal;
     }
 
-    else if(16<=fights && fights<=25)
+    else if(31 <= fights && fights <= 49)
     {
         militaryRank = Sergeant;
     }
 
-    else if(26<=fights)
+    else if(50 <= fights)
     {
         militaryRank = General;
     }
