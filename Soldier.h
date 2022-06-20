@@ -94,7 +94,7 @@ public:
     void   battle();
     void   stock();
 
-    string Info() const override;
+    virtual string Info() const;
 
 };
 
