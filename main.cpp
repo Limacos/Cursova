@@ -96,7 +96,7 @@ int main()
         cout << "Is adult? - " << (soldier_3.isAgeMore18()?"Yes":"No") << endl;
         cout << "Is military age? - " << (soldier_3.isGenderAgeMore18()?"Yes":"No");
         cout << endl;
-        cout << "-----------------------------------------------------------" << endl;
+        cout << "------------------------------------------------------------" << endl;
 
     }
 
